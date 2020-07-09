@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сезонное хранение автомобильныx шин и велосипедов</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- форма отправки -->
+        <div class="overlay"></div>
+        <section class="message-block">
+            <div class="message-block-inner">
+                <div class="form-message">
+                    <h2 class="title"></h2>
+                    <form action="core/send.php" method="POST" class="form-submit">
+                        <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required></div>
+                        <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div> <input type="hidden" name="type" value=""> <button class="submit-button"></button>
+                        <p> <i class="warranty"></i> Ваши контактные данные в безопаcности <br>и не будут переданы <span class="form-call agreement-call">третьим лицам</span> </p>
+                    </form>
+                </div>
+                <div class="agreement"> Соглашение об обработке персональных данных. Администрация Сайта обрабатывает персональные данные Пользователя в целях предоставления Пользователю услуг. Пользователь заполняя форму «Имя» «Емейл» «Телефон» даёт согласие на обработку своих
+                    персональных данных – имени, адреса электронной почты и номера телефона. Под обработкой персональных данных понимается сбор, систематизация, накопление, уточнение (обновление, изменение). Обработка осуществляется с использованием средств
+                    автоматизации и/или без использования таких средств, в целях реализации мероприятий оповещения пользователя о новых услугах и акциях компании и для обратной связи с пользователями сайта. </div>
+                <div class="close-button"></div>
+            </div>
+        </section>
+        <!-- форма отправки конец -->
+        <nav class="navigation">
+            <ol class="list__items">
+                <li class="list__item" id="glavnay">Главная</li>
+                <li class="list__item" id="usluga">Услуги</li>
+                <li class="list__item" id="benefit">Преимущества</li>
+                <li class="list__item" id="sale">Акции</li>
+                <li class="list__item" id="comments">Отзывы</li>
+                <li class="list__item" id="contact">Контакты</li>
+            </ol>
+        </nav>
+        <div class="top__bar">
+            <div class="bar-logo"><img src="./assets/img/icon-shina.png" alt=""><a href="index.html">Storeshouse.by</a></div>
+            <div class="bar__phone">
+                <a href="#">+375(29)999-99-99<img src="./assets/img/mts.png" alt""></a>
+                <a href="#">+375(29)999-99-99<img src="./assets/img/8939958468638.svg" alt""></a>
+            </div>
+            <div class="time-off">Время работы</br><span>Пн-Вс 9-22</span></div>
+            <button class="bar__btn">Сделать заявку</button>
+        </div>
+        <div class="wrap">
+            <section class="section section__header">
+                <h1 class="header__title">Сезонное хранение автомобильных шин</h1>
+                <span class="span__subtitle">Современный подхот в условии
+                        сезонного хранения шин.</span>
+                <div class="box">
+                    <div class="box__item">
+                        <p>Низкие цены на хранение</p>
+                    </div>
+                    <div class="box__item">
+                        <p>Хранение шин по ГОСТУ</p>
+                    </div>
+                    <div class="box__item">
+                        <p>Быстрая доставка шин</p>
+                    </div>
+                    <div class="box__item">
+                        <p>Официальный договор</p>
+                    </div>
+                    <div class="box__item">
+                        <p>Всё имущество застраховано</p>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <div class="text"></div>
+                        <span class="span">342</span>
+                        <div class="marker">Довольных клиентов</div>
+                    </div>
+                    <div class="item">
+                        <div class="text"></div>
+                        <span class="span">300</span>
+                        <div class="marker">Положительных отзывов</div>
+                    </div>
+                    <div class="item">
+                        <div class="text"></div>
+                        <span class="span">176</span>
+                        <div class="marker">Понравился<br> сервис</div>
+                    </div>
+                    <div class="item">
+                        <div class="text"></div>
+                        <span class="span">477</span>
+                        <div class="marker">Единиц на хранении</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- услуги и цены -->
+            <section class="section section__job">
+                <h3 class="job__title">Предостовляемые услуги и цены</h3>
+                <div class="job__items">
+                    <div class="job__item">
+                        <div class="job__item__front shin">
+                            <div class="job__item__text">Хранение шин и дисков</div>
+                            <div class="job__item__price">от 80 руб
+                                <span class="sale">от 67 руб *</span>
+                            </div>
+                            <div class="button__job one">Подробнее
+                                <span class="span-top"></span>
+                                <span class="span-right"></span>
+                                <span class="span-bottom"></span>
+                                <span class="span-left"></span>
+                            </div>
+                        </div>
+                        <div class="job__item__back">
+                            <img class="img-exit" src="./assets/img/exit.svg" alt="">
+                            <div class="list__prace__title">Прайс-лист на услуги сезонного хранения шин
+                                <ul class="list__prace-items">
+                                    <li class="list__prace-item">3 месяца
+                                        <span class="list__price">от 80 руб</span>
+                                        <span class="list__price-sale">от 67 руб *</span>
+                                    </li>
+                                    <li class="list__prace-item">6 месяцев
+                                        <span class="list__price">от 160 руб</span>
+                                        <span class="list__price-sale">от 134 руб *</span>
+                                    </li>
+                                    <li class="list__prace-item">9 месяцев
+                                        <span class="list__price">от 240 руб</span>
+                                        <span class="list__price-sale">от 201 руб *</span>
+
+                                    </li>
+                                    <li class="list__prace-item">12 месяцев
+                                        <span class="list__price">от 320 руб</span>
+                                        <span class="list__price-sale">от 268 руб *</span>
+                                    </li>
+                                    <div class="offer">Стоймость за один комплект
+                                        <p class="offer-text">До 10.06.20 Скидка на шиномонтаж у наших партнёров 10%</p>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job__item">
+                        <div class="job__item__front vel">
+                            <div class="job__item__text">Хранение велосипедов</div>
+                            <div class="job__item__price">от 65 руб
+                                <span class="sale">от 50 руб *</span>
+                            </div>
+                            <div class="button__job one">Подробнее
+                                <span class="span-top"></span>
+                                <span class="span-right"></span>
+                                <span class="span-bottom"></span>
+                                <span class="span-left"></span>
+                            </div>
+                        </div>
+                        <div class="job__item__back">
+                            <img class="img-exit" src="./assets/img/exit.svg" alt="">
+                            <div class="list__prace__title">Услуги сезонного хранение велосипедов
+                                <ul class="list__prace-items">
+                                    <li class="list__prace-item">3 месяца
+                                        <span class="list__price">от 65 руб</span>
+                                        <span class="list__price-sale">от 50 руб *</span>
+                                    </li>
+                                    <li class="list__prace-item">6 месяцев
+                                        <span class="list__price">от 130 руб</span>
+                                        <span class="list__price-sale">от 100 руб *</span>
+                                    </li>
+                                    <div class="offer">Стоймость за одну единицу
+                                        <p class="offer-text">Забор и доставка бесплатно</p>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job__sale">
+                        * Скидка по акции для новых клиентов при заключении договоров до 10 июня 2020 года<br> Все действующие предложения смотрите в разделе акции и скидки
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section section__benefit">
+                <h3 class="benefit__title">Наши Преимущества и как мы работаем
+                </h3>
+                <div class="benefit__items">
+                    <div class="benefit__items__box">
+                        <div class="benefit__front">Заявка, обратный звонок
+                            <img class="benefit__img" src="./assets/img/phone-volume-solid.svg" alt=""></div>
+                        <div class="benefit__back">Мы обрабатываем ваш звонок в течении 15 минут и уточняем детали</div>
+                    </div>
+                    <div class="benefit__items__box">
+                        <div class="benefit__front">Выезд и оформление
+                            <img class="benefit__img" src="./assets/img/address-card-solid.svg" alt=""></div>
+                        <div class="benefit__back">Мы приезжаем по адресу заказчика и принимаем шины/диски/колеса с оформлением Договора хранения и акта приема-передачи тмц.</div>
+                    </div>
+                    <div class="benefit__items__box">
+                        <div class="benefit__front">Доставка на склад
+                            <img class="benefit__img" src="./assets/img/truck-solid.svg" alt=""></div>
+                        <div class="benefit__back">Доставляем имущество на склад</div>
+                    </div>
+                    <div class="benefit__items__box">
+                        <div class="benefit__front">Хранение
+                            <img class="benefit__img" src="./assets/img/warehouse-solid.svg" alt=""></div>
+                        <div class="benefit__back">Храним Ваше имущество в соответствии с правилами и нормами хранения.</div>
+                    </div>
+                    <div class="benefit__items__box">
+                        <div class="benefit__front" id="client-front">Доставка клиенту
+                            <img class="benefit__img" src="./assets/img/logo.png" alt=""></div>
+                        <div class="benefit__back">Доставляем имущество со склада компании к заказчику по окончанию срока хранения.</div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__sale">
+                <h3 class="sale__title">Скидки и акции для новых клиентов</h3>
+            </section>
+
+            <!-- блок с отзывами -->
+            <section class="section section__comments">
+                <h3 class="comments__title">Отзывы клиетов</h3>
+                <div class="client">
+                    <div class="client__item">
+                        <div class="client__item__img"><img src="./assets/img/Layer26.png"></div>
+                        <p class="client__item__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make. a type
+                            specimen book. , but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    </div>
+                    <div class="client__item">
+                        <div class="client__item__img"><img src="./assets/img/Layer22.png"></div>
+                        <p class="client__item__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a type specimen
+                            book. , but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                    <div class="client__item">
+                        <div class="client__item__img"><img src="./assets/img/Layer25.png"></div>
+                        <p class="client__item__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make. a type
+                            specimen book. , but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    </div>
+                    <div class="client__item">
+                        <div class="client__item__img"><img src="./assets/img/Layer23.png"></div>
+                        <p class="client__item__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a type specimen
+                            book. , but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- контакты и карта проезда -->
+            <section class="section section__contact">
+                <h3 class="contact__title">Контакты и карта проезда до територии хранения</h3>
+                <div class="cart">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A397a263fda76876baf3e92281abea5be94d46157a7b785de034e7cb93fa0b065&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </section>
+        </div>
+    </header>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
